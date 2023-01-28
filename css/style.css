@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+    height: auto;
+    width: 1000px;
+    display: inline-block;
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+}
+.televisores div{
+    max-width: 360px;
+    max-height: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.televisores img{
+    max-width: 250px;
+    max-height: 220px;
+    vertical-align: text-bottom;
+    align-content: center;
+}
+
+.televisores h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.televisores span{
+
+    font-family: fantasy;
+    text-align: center;
+}
+
+.tabla{
+    margin: 12px;
+    font-style: oblique;
+    text-align: center;
+    width: 500px;
+
+}
+
+.boton_borrar{
+
+    background-color: red;
+    font-weight: bold;
+}
+
+.suma_cantidad {
+
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.listadoCompra{
+    border-style: double;
+    border-color: black;
+    background-color: aqua;
+    height: 350px;
+    width: 610px;
+    font-size: 20px;
+    margin-bottom: 80px;
+    margin-left: 180px;
+}
+
+.listadoCompra h4 {
+
+    text-align: center;
+}
+
+.botonBorrar {
+
+    background-color: red;
+    font-size: 30px;
+    margin-left: 35%;
+}
